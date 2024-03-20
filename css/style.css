@@ -585,7 +585,9 @@ body {
   .header-outer-wrap.section-inner,
   .header-outer-wrap.section-main {
     margin-bottom: 0;
-    height: 112.5rem;
+    max-height: 112.5rem;
+    min-height: 300px;
+    height: calc(100dvh - 70px);
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -596,6 +598,7 @@ body {
     width: 100%;
   }
   .header-outer-wrap.section-inner {
+    height: 100dvh;
     margin-bottom: 30px;
   }
   .header-outer-wrap.section-main .header-inner-wrap {

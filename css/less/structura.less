@@ -266,7 +266,9 @@ html {
 	.header-outer-wrap {
 		&.section-inner, &.section-main {
 			margin-bottom: 0;
-			height: 112.5rem;
+			max-height: 112.5rem;
+			min-height: 300px;
+			height: calc(100dvh - 70px);
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
@@ -274,6 +276,7 @@ html {
 			width: 100%;
 		}
 		&.section-inner {
+			height: 100dvh;
 			margin-bottom: 30px;
 		}
 		&.section-main {
