@@ -11,46 +11,841 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
+    <script src="./js/jquery.min.js" defer></script>
+    <script src="./js/jquery.fancybox.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
 </head>
 
 <body>
     <!-- wrap -->
     <div class="wrap">
 
-
-        <!-- header -->
-        <header class="header">
-            <div class="inner-wrap">
-                44444
+        <div class="header-outer-wrap cnt-section section-main">
+            <div class="header-bg-wrap">
+                <img src="./img/main.svg" alt="" class="img-bg-cover">
             </div>
-        </header>
-        <!-- /header -->
+            <div class="header-inner-wrap">
+
+                <!-- header -->
+                <header class="header">
+                    <div class="inner-wrap">
+                        <div class="logo-wrap">
+                            <a href="" class="logo">
+                                <img src="./img/main/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="actions-wrap">
+                            <div class="action-wrap">
+                                <a href="tel:88008880000" class="link-phone">8 800 888 00 00</a>
+                            </div>
+                            <div class="action-wrap">
+                                <a href="" class="btn button-small js-popup-open" data-popup="popup-city">Выбрать город</a>
+                            </div>
+                        </div>
+                        <div class="popup-menu-wrap js-popup-wrap">
+                            <a href="" class="btn-popup-toggle btn-action-ico ico-menu js-btn-popup-toggle"></a>
+                            <div class="popup-content-block js-popup-block">
+                                <ul class="menu">
+                                    <li><a href="">Главная</a></li>
+                                    <li><a href="">Город</a></li>
+                                    <li><a href="">Супермаркеты</a></li>
+                                    <li><a href="">Автобусы</a></li>
+                                    <li><a href="">Видеоролики</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- /header -->
+
+            </div>
+        </div>
 
         <!-- page -->
-        <div class="page">
-            2222
+        <div class="page-full">
+
+            <!--catalog-list-box-->
+            <div class="catalog-list-box section-bg">
+                <div class="title-box">
+                    <div class="elm-ico">
+                        <img src="./img/icons/arrow.svg" alt="">
+                    </div>
+                    <div class="title-inner">ПРЕДОСТАВЛЯЕМ УСЛУГИ РЕКЛАМЫ:</div>
+                </div>
+                <div class="items-inner-wrap">
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <ul class="menu">
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/01.svg" alt="">
+                                        </div>
+                                        <div class="button-title">СУПЕРМАРКЕТЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/02.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ГИПЕРМАРКЕТЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/03.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ТРЦ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/04.svg" alt="">
+                                        </div>
+                                        <div class="button-title">БИЗНЕС-ЦЕНТРЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/05.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ЖИЛЫЕ ДОМА</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <ul class="menu">
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/06.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ТРИЦ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/07.svg" alt="">
+                                        </div>
+                                        <div class="button-title">МФЦ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/08.svg" alt="">
+                                        </div>
+                                        <div class="button-title">АПТЕКИ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/09.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ПОЛИКЛИНИКИ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/10.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ПОЧТА РОССИИ</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <ul class="menu">
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/11.svg" alt="">
+                                        </div>
+                                        <div class="button-title">РЕСТОРАНЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/12.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ФУДКОРТЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/13.svg" alt="">
+                                        </div>
+                                        <div class="button-title">КИНОТЕАТРЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/14.svg" alt="">
+                                        </div>
+                                        <div class="button-title">СТАДИОНЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/15.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ФИТНЕС-ЦЕНТРЫ</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap wrap-full">
+                            <ul class="list">
+                                <li>
+                                    <a href="./img/01.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/01.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/02.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/02.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/03.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/03.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/04.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/04.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/05.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/05.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/06.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/06.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <ul class="menu">
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/16.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ОТЕЛИ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/17.svg" alt="">
+                                        </div>
+                                        <div class="button-title">АВТОВОКЗАЛЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/18.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ЖД ВОКЗАЛЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/19.svg" alt="">
+                                        </div>
+                                        <div class="button-title">АЭРОПОРТЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/20.svg" alt="">
+                                        </div>
+                                        <div class="button-title">АЗС</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <ul class="list">
+                                <li>
+                                    <a href="./img/07.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/07.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/08.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/08.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/09.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/09.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./img/10.jpg" class="elm-photo photo-cover" data-fancybox="gal">
+                                        <img src="./img/10.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <ul class="menu">
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/21.svg" alt="">
+                                        </div>
+                                        <div class="button-title">АВТОБУСЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/22.svg" alt="">
+                                        </div>
+                                        <div class="button-title">МАРШРУТКИ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/23.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ТРОЛЛЕЙБУСЫ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/24.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ТАКСИ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/25.svg" alt="">
+                                        </div>
+                                        <div class="button-title">ТРАМВАИ</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn button-clear">
+                                        <div class="button-ico">
+                                            <img src="./img/icons/26.svg" alt="">
+                                        </div>
+                                        <div class="button-title">МЕТРО</div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                </div>
+                <div class="title-box">
+                    <div class="elm-ico">
+                        <img src="./img/icons/arrow.svg" alt="">
+                    </div>
+                    <div class="title-inner">Изготовление видеоролика</div>
+                </div>
+            </div>
+            <!--/catalog-list-box-->
+
         </div>
         <!-- /page -->
 
-
-        <!-- footer -->
-        <footer class="footer">
-            <div class="inner-wrap">
-                333333
+        <!--popup-outer-box-->
+        <div class="popup-outer-box" id="popup-city">
+            <div class="popup-box">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-title-wrap">
+                    <div class="popup-title">Выберите город</div>
+                    <p>где будет проходить рекламная компаняи</p>
+                </div>
+                <div class="popup-content-wrap">
+                    <div class="popup-list-wrap">
+                        <ul class="list">
+                            <li data-title="A">
+                                <ul>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Б">
+                                <ul>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="В">
+                                <ul>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Г">
+                                <ul>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Д">
+                                <ul>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Е">
+                                <ul>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Ж">
+                                <ul>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="З">
+                                <ul>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="И">
+                                <ul>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="A">
+                                <ul>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Б">
+                                <ul>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="В">
+                                <ul>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Г">
+                                <ul>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Д">
+                                <ul>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Е">
+                                <ul>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Ж">
+                                <ul>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="З">
+                                <ul>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="И">
+                                <ul>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="A">
+                                <ul>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Абакан</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Алушта</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                    <li><a href="">Архангельск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Б">
+                                <ul>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Бавлы</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Березники</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                    <li><a href="">Бугульма</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="В">
+                                <ul>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Вавож</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Владивосток</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                    <li><a href="">Вологда</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Г">
+                                <ul>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Гагарин</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                    <li><a href="">Грахово</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Д">
+                                <ul>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Далматово</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                    <li><a href="">Дмитров</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Е">
+                                <ul>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Евпатория</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                    <li><a href="">Енисейск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="Ж">
+                                <ul>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                    <li><a href="">Железногорск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="З">
+                                <ul>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                    <li><a href="">Забайкальск</a></li>
+                                </ul>
+                            </li>
+                            <li data-title="И">
+                                <ul>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                    <li><a href="">Иваново</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="popup-footer-wrap">
+                    <a href="" class="btn button-medium">Подтвердить</a>
+                </div>
             </div>
-        </footer>
-        <!-- /footer -->
+        </div><!--/popup-outer-box-->
 
     </div>
     <!-- /wrap -->
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="./js/jquery.maskedinput.min.js"></script>
-    <script src="./js/scripts.js"></script>
+
 
 </body>
 
